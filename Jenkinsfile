@@ -4,7 +4,7 @@ pipeline {
         IMAGE_NAME = 'abdieeuh/simple-app'
         REGISTRY = 'https://index.docker.io/v1/'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
-        PATH = "/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin" // tambahkan ini!
+        PATH = "/usr/local/bin/docker" // tambahkan ini!
     }
 
     stages {
